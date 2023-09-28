@@ -25,4 +25,7 @@ button.addEventListener("click", function () {
     const item = document.createElement("li");
     list.appendChild(item);
 
+    const itemLabel = document.createElement("span");
+    itemLabel.innerText = text;
+    item.appendChild(itemLabel);
 })

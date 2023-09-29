@@ -65,5 +65,16 @@ button.addEventListener("click", function () {
 
     })
 
+    trashcan.addEventListener("click", function () {
+        if (item.getAttribute("class") == "completed") {
+            completedCount--;
+        }
+
+        completedInfo.innerText = `${completedCount} completed`;
+
+
+
+    })
+
 
 })

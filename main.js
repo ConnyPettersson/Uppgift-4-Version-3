@@ -9,6 +9,8 @@ const completedInfo = document.querySelector("p");
 
 
 let completedCount = 0;
+const todoArray = [];
+
 
 
 
@@ -24,6 +26,8 @@ button.addEventListener("click", function () {
     else {
         info.innerText = "";
     }
+
+    todoArray.push(text);
 
     const item = document.createElement("li");
     list.appendChild(item);

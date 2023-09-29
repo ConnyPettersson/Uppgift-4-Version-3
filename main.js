@@ -70,9 +70,9 @@ button.addEventListener("click", function () {
             completedCount--;
         }
 
-        completedInfo.innerText = `${completedCount} completed`;
 
 
+        item.remove();
 
     })
 

@@ -25,3 +25,8 @@
     color: rgb(190, 15, 15);
     text-decoration: line-through;
 }
+
+.trashcan {
+    margin-left: 20px;
+    cursor: pointer;
+}

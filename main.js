@@ -36,6 +36,13 @@ button.addEventListener("click", function () {
     itemLabel.innerText = text;
     item.appendChild(itemLabel);
 
+    const trashcan = document.createElement("span");
+    trashcan.innerHTML = "&#x1F5D1";
+    trashcan.setAttribute("class", "trashcan");
+    item.appendChild(trashcan);
+
+
+
     itemLabel.addEventListener("click", function () {
 
 

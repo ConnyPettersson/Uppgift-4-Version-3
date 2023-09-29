@@ -72,6 +72,9 @@ button.addEventListener("click", function () {
 
         completedInfo.innerText = `${completedCount} completed`;
 
+        let removeText = item.firstChild.firstChild.textContent;
+        let indexToRemove = todoArray.indexOf(removeText);
+        todoArray.splice(indexToRemove, 1);
         item.remove();
 
     })
